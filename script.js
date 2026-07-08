@@ -1,250 +1,248 @@
-/* =================================
+/* =====================================
    WINDY CITY WEAPONS
-   COMPLETE SCRIPT
+   CLEAN SCRIPT
    PART 1 - WEAPON DATABASE
-================================= */
+===================================== */
 
 
 const weapons = {
 
 
-/* ======================
-   TIER 0
-   SAME AS TIER 1
-====================== */
+    // =========================
+    // TIER 0
+    // =========================
 
-tier 0: [
+    tier0: [
 
-{
-name:"Pistol - Beretta",
-image:"images/beretta.png",
-stats:"Damage:45 | Accuracy:70 | Range:45"
-},
+        {
+            name: "Pistol - Beretta",
+            image: "images/Beretta.jpeg",
+            stats: "Damage: 45 | Accuracy: 70 | Range: 45"
+        },
 
-{
-name:"Pistol Mk II - Glock 45",
-image:"images/glock45.png",
-stats:"Damage:50 | Accuracy:85 | Range:50"
-},
+        {
+            name: "Pistol Mk II - Glock 45",
+            image: "images/Glock45.jpeg",
+            stats: "Damage: 50 | Accuracy: 85 | Range: 50"
+        },
 
-{
-name:"Combat Pistol - G19x",
-image:"images/g19x.png",
-stats:"Damage:55 | Accuracy:85 | Range:55"
-},
+        {
+            name: "Combat Pistol - G19x",
+            image: "images/G19x.jpeg",
+            stats: "Damage: 55 | Accuracy: 85 | Range: 55"
+        },
 
-{
-name:"SNS Pistol - Walter P90",
-image:"images/walter-p90.png",
-stats:"Damage:60 | Accuracy:75 | Range:55"
-},
+        {
+            name: "SNS Pistol - Walter P90",
+            image: "images/WalterP90.jpeg",
+            stats: "Damage: 60 | Accuracy: 75 | Range: 55"
+        },
 
-{
-name:"SNS Pistol Mk II - Hellcat",
-image:"images/hellcat.png",
-stats:"Damage:52 | Accuracy:82 | Range:50"
-},
+        {
+            name: "SNS Pistol Mk II - Hellcat",
+            image: "images/Hellcat.jpeg",
+            stats: "Damage: 52 | Accuracy: 82 | Range: 50"
+        },
 
-{
-name:"Heavy Pistol - FN",
-image:"images/fn.png",
-stats:"Damage:70 | Accuracy:70 | Range:65"
-},
+        {
+            name: "Heavy Pistol - FN",
+            image: "images/FN.jpeg",
+            stats: "Damage: 70 | Accuracy: 70 | Range: 65"
+        },
 
-{
-name:"Vintage Pistol - Glock 41",
-image:"images/glock41.png",
-stats:"Damage:60 | Accuracy:80 | Range:55"
-},
+        {
+            name: "Vintage Pistol - Glock 41",
+            image: "images/Glock41.jpeg",
+            stats: "Damage: 60 | Accuracy: 80 | Range: 55"
+        },
 
-{
-name:"Ceramic Pistol - SigP230",
-image:"images/sigp230.png",
-stats:"Damage:50 | Accuracy:75 | Range:45"
-}
+        {
+            name: "Ceramic Pistol - SigP230",
+            image: "images/SigP230.jpeg",
+            stats: "Damage: 50 | Accuracy: 75 | Range: 45"
+        }
 
-],
-
-
-
-
-/* ======================
-   TIER 1
-====================== */
-
-tier 1: [
-
-{
-name:"Pistol - Beretta",
-image:"images/beretta.png",
-stats:"Damage:45 | Accuracy:70 | Range:45"
-},
-
-{
-name:"Pistol Mk II - Glock 45",
-image:"images/glock45.png",
-stats:"Damage:50 | Accuracy:85 | Range:50"
-},
-
-{
-name:"Combat Pistol - G19x",
-image:"images/g19x.png",
-stats:"Damage:55 | Accuracy:85 | Range:55"
-},
-
-{
-name:"SNS Pistol - Walter P90",
-image:"images/walter-p90.png",
-stats:"Damage:60 | Accuracy:75 | Range:55"
-},
-
-{
-name:"SNS Pistol Mk II - Hellcat",
-image:"images/hellcat.png",
-stats:"Damage:52 | Accuracy:82 | Range:50"
-},
-
-{
-name:"Heavy Pistol - FN",
-image:"images/fn.png",
-stats:"Damage:70 | Accuracy:70 | Range:65"
-},
-
-{
-name:"Vintage Pistol - Glock 41",
-image:"images/glock41.png",
-stats:"Damage:60 | Accuracy:80 | Range:55"
-},
-
-{
-name:"Ceramic Pistol - SigP230",
-image:"images/sigp230.png",
-stats:"Damage:50 | Accuracy:75 | Range:45"
-}
-
-],
+    ],
 
 
 
 
-/* ======================
+    // =========================
+    // TIER 1
+    // =========================
+
+    tier1: [
+
+        {
+            name: "Pistol - Beretta",
+            image: "images/Beretta.jpeg",
+            stats: "Damage: 45 | Accuracy: 70 | Range: 45"
+        },
+
+        {
+            name: "Pistol Mk II - Glock 45",
+            image: "images/Glock45.jpeg",
+            stats: "Damage: 50 | Accuracy: 85 | Range: 50"
+        },
+
+        {
+            name: "Combat Pistol - G19x",
+            image: "images/G19x.jpeg",
+            stats: "Damage: 55 | Accuracy: 85 | Range: 55"
+        },
+
+        {
+            name: "SNS Pistol - Walter P90",
+            image: "images/WalterP90.jpeg",
+            stats: "Damage: 60 | Accuracy: 75 | Range: 55"
+        },
+
+        {
+            name: "SNS Pistol Mk II - Hellcat",
+            image: "images/Hellcat.jpeg",
+            stats: "Damage: 52 | Accuracy: 82 | Range: 50"
+        },
+
+        {
+            name: "Heavy Pistol - FN",
+            image: "images/FN.jpeg",
+            stats: "Damage: 70 | Accuracy: 70 | Range: 65"
+        },
+
+        {
+            name: "Vintage Pistol - Glock 41",
+            image: "images/Glock41.jpeg",
+            stats: "Damage: 60 | Accuracy: 80 | Range: 55"
+        },
+
+        {
+            name: "Ceramic Pistol - SigP230",
+            image: "images/SigP230.jpeg",
+            stats: "Damage: 50 | Accuracy: 75 | Range: 45"
+        }
+
+    ],/* =========================
    TIER 1.5
-====================== */
+========================= */
 
-tier 1.5: [
 
-{
-name:"SMG - Banshee ARP",
-image:"images/banshee-arp.png",
-stats:"Damage:70 | Accuracy:75 | Range:60"
-},
+tier15: [
 
-{
-name:"SMG Mk II - 4 Inch ARP (FRT)",
-image:"images/4inch-arp.png",
-stats:"Damage:75 | Accuracy:80 | Range:65"
-},
+    {
+        name:"SMG - Banshee ARP",
+        image:"images/BansheeARP.jpeg",
+        stats:"Damage:70 | Accuracy:75 | Range:60"
+    },
 
-{
-name:"Machine Pistol - Tec 9",
-image:"images/tec9.png",
-stats:"Damage:65 | Accuracy:70 | Range:50"
-},
+    {
+        name:"SMG Mk II - 4 Inch ARP (FRT)",
+        image:"images/4InchARP.jpeg",
+        stats:"Damage:75 | Accuracy:80 | Range:65"
+    },
 
-{
-name:"AP Pistol - G47 Switch",
-image:"images/g47-switch.png",
-stats:"Damage:80 | Accuracy:85 | Range:60"
-},
+    {
+        name:"Machine Pistol - Tec 9",
+        image:"images/Tec9.jpeg",
+        stats:"Damage:65 | Accuracy:70 | Range:50"
+    },
 
-{
-name:"Pistol .50 - FN 57",
-image:"images/fn57.png",
-stats:"Damage:85 | Accuracy:80 | Range:70"
-},
+    {
+        name:"AP Pistol - G47 Switch",
+        image:"images/G47Switch.jpeg",
+        stats:"Damage:80 | Accuracy:85 | Range:60"
+    },
 
-{
-name:"Heavy Pistol - FN",
-image:"images/fn.png",
-stats:"Damage:70 | Accuracy:70 | Range:65"
-},
+    {
+        name:"Pistol .50 - FN 57",
+        image:"images/FN57.jpeg",
+        stats:"Damage:85 | Accuracy:80 | Range:70"
+    },
 
-{
-name:"WM 29 Pistol - Glock 30",
-image:"images/glock30.png",
-stats:"Damage:65 | Accuracy:75 | Range:55"
-},
+    {
+        name:"Heavy Pistol - FN",
+        image:"images/FN.jpeg",
+        stats:"Damage:70 | Accuracy:70 | Range:65"
+    },
 
-{
-name:"Compact Rifle - Micro Draco",
-image:"images/micro-draco.png",
-stats:"Damage:85 | Accuracy:65 | Range:60"
-},
+    {
+        name:"WM 29 Pistol - Glock 30",
+        image:"images/Glock30.jpeg",
+        stats:"Damage:65 | Accuracy:75 | Range:55"
+    },
 
-{
-name:"Heavy Rifle - Honey Badger",
-image:"images/honey-badger.png",
-stats:"Damage:90 | Accuracy:85 | Range:75"
-}
+    {
+        name:"Compact Rifle - Micro Draco",
+        image:"images/MicroDraco.jpeg",
+        stats:"Damage:85 | Accuracy:65 | Range:60"
+    },
+
+    {
+        name:"Heavy Rifle - Honey Badger",
+        image:"images/HoneyBadger.jpeg",
+        stats:"Damage:90 | Accuracy:85 | Range:75"
+    }
 
 ],
 
 
 
 
-/* ======================
+/* =========================
    TIER 2
-====================== */
+========================= */
 
-tier 2: [
 
-{
-name:"Carbine Rifle - 300 Blackout",
-image:"images/300-blackout.png",
-stats:"Damage:90 | Accuracy:85 | Range:85"
-},
+tier2: [
 
-{
-name:"Carbine Rifle Mk II - Micro ARP",
-image:"images/micro-arp.png",
-stats:"Damage:85 | Accuracy:80 | Range:70"
-},
+    {
+        name:"Carbine Rifle - 300 Blackout",
+        image:"images/300Blackout.jpeg",
+        stats:"Damage:90 | Accuracy:85 | Range:85"
+    },
 
-{
-name:"Compact Rifle - Black Draco",
-image:"images/black-draco.png",
-stats:"Damage:90 | Accuracy:70 | Range:65"
-},
+    {
+        name:"Carbine Rifle Mk II - Micro ARP",
+        image:"images/MicroARP.jpeg",
+        stats:"Damage:85 | Accuracy:80 | Range:70"
+    },
 
-{
-name:"AP Pistol - G47 Switch",
-image:"images/g47-switch.png",
-stats:"Damage:80 | Accuracy:85 | Range:60"
-},
+    {
+        name:"Compact Rifle - Black Draco",
+        image:"images/BlackDraco.jpeg",
+        stats:"Damage:90 | Accuracy:70 | Range:65"
+    },
 
-{
-name:"Micro SMG - Kriss Vector",
-image:"images/kriss-vector.png",
-stats:"Damage:85 | Accuracy:90 | Range:65"
-},
+    {
+        name:"AP Pistol - G47 Switch",
+        image:"images/G47Switch.jpeg",
+        stats:"Damage:80 | Accuracy:85 | Range:60"
+    },
 
-{
-name:"Tactical SMG - Mac 10",
-image:"images/mac10.png",
-stats:"Damage:75 | Accuracy:70 | Range:55"
-},
+    {
+        name:"Micro SMG - Kriss Vector",
+        image:"images/KrissVector.jpeg",
+        stats:"Damage:85 | Accuracy:90 | Range:65"
+    },
 
-{
-name:"Combat PDW - DDM4",
-image:"images/ddm4.png",
-stats:"Damage:90 | Accuracy:85 | Range:80"
-}
+    {
+        name:"Tactical SMG - Mac 10",
+        image:"images/Mac10.jpeg",
+        stats:"Damage:75 | Accuracy:70 | Range:55"
+    },
 
-];/* =================================
+    {
+        name:"Combat PDW - DDM4",
+        image:"images/DDM4.jpeg",
+        stats:"Damage:90 | Accuracy:85 | Range:80"
+    }
+
+]
+
+
+};/* =====================================
    WINDY CITY WEAPONS
-   COMPLETE SCRIPT
-   PART 2 - WEBSITE FUNCTIONS
-================================= */
+   PART 3 - FUNCTIONS & SPINNER
+===================================== */
 
 
 /* CURRENT SETTINGS */
@@ -255,7 +253,7 @@ let currentWeaponPool = weapons[currentTier];
 
 
 
-/* HOW MANY WEAPONS APPEAR IN SPIN */
+/* SPIN AMOUNT */
 
 const spinLimits = {
 
@@ -272,10 +270,9 @@ const spinLimits = {
 
 
 
-/* ======================
+/* =========================
    LOAD TIER
-====================== */
-
+========================= */
 
 function showTier(tier){
 
@@ -299,10 +296,6 @@ function showTier(tier){
     weaponList.innerHTML = "";
 
 
-    currentPool.innerHTML = "";
-
-
-
 
     currentWeaponPool.forEach((weapon)=>{
 
@@ -312,10 +305,7 @@ function showTier(tier){
 
 
         item.innerHTML =
-
-        `
-         ${weapon.name}
-        `;
+        "🔫 " + weapon.name;
 
 
         weaponList.appendChild(item);
@@ -325,21 +315,19 @@ function showTier(tier){
 
 
 
+    currentPool.innerHTML = `
 
+        <h3>${tier.toUpperCase()}</h3>
 
-    currentPool.innerHTML =
+        <p>
+        Weapons Available:
+        ${currentWeaponPool.length}
+        </p>
 
-    `
-
-    <h3>${tier.toUpperCase()}</h3>
-
-    <p>
-    Total Weapons: ${currentWeaponPool.length}
-    </p>
-
-    <p>
-    Spin Pool: ${spinLimits[tier]} Weapons
-    </p>
+        <p>
+        Spin Pool:
+        ${spinLimits[tier]} Weapons
+        </p>
 
     `;
 
@@ -351,9 +339,9 @@ function showTier(tier){
 
 
 
-/* ======================
-   SPIN WEAPON
-====================== */
+/* =========================
+   SPIN BUTTON
+========================= */
 
 
 function randomizeWeapon(){
@@ -362,11 +350,7 @@ function randomizeWeapon(){
 
     if(currentWeaponPool.length === 0){
 
-
-        alert(
-        "This tier has no weapons."
-        );
-
+        alert("No weapons in this tier");
 
         return;
 
@@ -374,18 +358,22 @@ function randomizeWeapon(){
 
 
 
-
     let spinPool = [];
 
+    let available =
+    [...currentWeaponPool];
 
 
-    let amount = spinLimits[currentTier];
+
+    let amount =
+    spinLimits[currentTier];
 
 
 
+
+    // Automatically choose weapons
 
     for(let i = 0; i < amount; i++){
-
 
 
         let random = Math.floor(
@@ -394,18 +382,19 @@ function randomizeWeapon(){
 
             *
 
-            currentWeaponPool.length
+            available.length
 
         );
-
 
 
         spinPool.push(
 
-            currentWeaponPool[random]
+            available[random]
 
         );
 
+
+        available.splice(random,1);
 
 
     }
@@ -434,63 +423,91 @@ function randomizeWeapon(){
 
 
 
-
-    document.getElementById("weaponName")
-    .innerHTML =
-
-    winner.name;
-
-
-
-
-
-    document.getElementById("weaponImage")
-    .src =
-
-    winner.image;
-
-
-
-
-
-    document.getElementById("weaponStats")
-    .innerHTML =
-
-    winner.stats;
-
-
-
-}
-
-
-
-
-
-/* ======================
-   SPIN ANIMATION EFFECT
-====================== */
-
-
-function spinAnimation(){
-
-
-    let name =
-
+    let weaponName =
     document.getElementById("weaponName");
 
 
-
-    name.innerHTML = "SPINNING...";
-
-
-
-    setTimeout(()=>{
+    let weaponImage =
+    document.getElementById("weaponImage");
 
 
-        randomizeWeapon();
+    let weaponStats =
+    document.getElementById("weaponStats");
 
 
-    },1500);
+
+
+
+    let count = 0;
+
+
+    let animation = setInterval(()=>{
+
+
+        let fakeWeapon =
+
+        currentWeaponPool[
+
+            Math.floor(
+
+            Math.random()
+
+            *
+
+            currentWeaponPool.length
+
+            )
+
+        ];
+
+
+
+        weaponName.innerHTML =
+        fakeWeapon.name;
+
+
+
+        weaponImage.src =
+        fakeWeapon.image;
+
+
+
+        weaponStats.innerHTML =
+        "Rolling...";
+
+
+
+        count++;
+
+
+
+        if(count >= 20){
+
+
+            clearInterval(animation);
+
+
+
+            weaponName.innerHTML =
+            winner.name;
+
+
+
+            weaponImage.src =
+            winner.image;
+
+
+
+            weaponStats.innerHTML =
+            winner.stats;
+
+
+
+        }
+
+
+
+    },100);
 
 
 
@@ -499,23 +516,17 @@ function spinAnimation(){
 
 
 
-/* ======================
-   CONNECT BUTTONS
-====================== */
 
 
-document.addEventListener(
-
-"DOMContentLoaded",
-
-()=>{
+/* =========================
+   DEFAULT LOAD
+========================= */
 
 
-    showTier("tier 0");
-    showTier("tier 1");
-    showTier("tier 1.5");
-    showTier("tier 2");
+window.onload = function(){
 
-}
 
-);
+    showTier("tier1");
+
+
+};
