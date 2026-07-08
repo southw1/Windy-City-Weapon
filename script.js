@@ -9,10 +9,10 @@ const weapons = {
 
 
     // =========================
-    // TIER 0
+    // Tier 0
     // =========================
 
-    tier0: [
+    tier 0: [
 
         {
             name: "Pistol",
@@ -68,10 +68,10 @@ const weapons = {
 
 
     // =========================
-    // TIER 1
+    // Tier 1
     // =========================
 
-    tier1: [
+    tier 1: [
 
         {
             name: "Pistol",
@@ -122,11 +122,11 @@ const weapons = {
         }
 
     ],/* =========================
-   TIER 1.5
+   Tier 1.5
 ========================= */
 
 
-tier15: [
+tier 1.5: [
 
     {
         name:"SMG",
@@ -188,11 +188,11 @@ tier15: [
 
 
 /* =========================
-   TIER 2
+   Tier 2
 ========================= */
 
 
-tier2: [
+tier 2: [
 
     {
         name:"Carbine Rifle",
@@ -526,7 +526,13 @@ function randomizeWeapon(){
 window.onload = function(){
 
 
-    showTier("tier1");
+    showTier("tier 0");
+    showTier("tier 1");
+    showTier("tier 1.5");
+    showTier("tier 2");
+
+
+
 
 
 };
