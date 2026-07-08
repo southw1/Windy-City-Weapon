@@ -15,49 +15,49 @@ const weapons = {
     tier0: [
 
         {
-            name: "Pistol - Beretta",
+            name: "Pistol",
             image: "images/Beretta.jpeg",
             stats: "Damage: 45 | Accuracy: 70 | Range: 45"
         },
 
         {
-            name: "Pistol Mk II - Glock 45",
+            name: "Pistol Mk II",
             image: "images/Glock45.jpeg",
             stats: "Damage: 50 | Accuracy: 85 | Range: 50"
         },
 
         {
-            name: "Combat Pistol - G19x",
+            name: "Combat Pistol",
             image: "images/G19x.jpeg",
             stats: "Damage: 55 | Accuracy: 85 | Range: 55"
         },
 
         {
-            name: "SNS Pistol - Walter P90",
+            name: "SNS Pistol",
             image: "images/WalterP90.jpeg",
             stats: "Damage: 60 | Accuracy: 75 | Range: 55"
         },
 
         {
-            name: "SNS Pistol Mk II - Hellcat",
+            name: "SNS Pistol Mk II",
             image: "images/Hellcat.jpeg",
             stats: "Damage: 52 | Accuracy: 82 | Range: 50"
         },
 
         {
-            name: "Heavy Pistol - FN",
+            name: "Heavy Pistol",
             image: "images/FN.jpeg",
             stats: "Damage: 70 | Accuracy: 70 | Range: 65"
         },
 
         {
-            name: "Vintage Pistol - Glock 41",
+            name: "Vintage Pistol",
             image: "images/Glock41.jpeg",
             stats: "Damage: 60 | Accuracy: 80 | Range: 55"
         },
 
         {
-            name: "Ceramic Pistol - SigP230",
+            name: "Ceramic Pistol",
             image: "images/SigP230.jpeg",
             stats: "Damage: 50 | Accuracy: 75 | Range: 45"
         }
@@ -74,49 +74,49 @@ const weapons = {
     tier1: [
 
         {
-            name: "Pistol - Beretta",
+            name: "Pistol",
             image: "images/Beretta.jpeg",
             stats: "Damage: 45 | Accuracy: 70 | Range: 45"
         },
 
         {
-            name: "Pistol Mk II - Glock 45",
+            name: "Pistol Mk II",
             image: "images/Glock45.jpeg",
             stats: "Damage: 50 | Accuracy: 85 | Range: 50"
         },
 
         {
-            name: "Combat Pistol - G19x",
+            name: "Combat Pistol",
             image: "images/G19x.jpeg",
             stats: "Damage: 55 | Accuracy: 85 | Range: 55"
         },
 
         {
-            name: "SNS Pistol - Walter P90",
+            name: "SNS Pistol",
             image: "images/WalterP90.jpeg",
             stats: "Damage: 60 | Accuracy: 75 | Range: 55"
         },
 
         {
-            name: "SNS Pistol Mk II - Hellcat",
+            name: "SNS Pistol Mk II",
             image: "images/Hellcat.jpeg",
             stats: "Damage: 52 | Accuracy: 82 | Range: 50"
         },
 
         {
-            name: "Heavy Pistol - FN",
+            name: "Heavy Pistol",
             image: "images/FN.jpeg",
             stats: "Damage: 70 | Accuracy: 70 | Range: 65"
         },
 
         {
-            name: "Vintage Pistol - Glock 41",
+            name: "Vintage Pistol",
             image: "images/Glock41.jpeg",
             stats: "Damage: 60 | Accuracy: 80 | Range: 55"
         },
 
         {
-            name: "Ceramic Pistol - SigP230",
+            name: "Ceramic Pistol",
             image: "images/SigP230.jpeg",
             stats: "Damage: 50 | Accuracy: 75 | Range: 45"
         }
@@ -129,31 +129,31 @@ const weapons = {
 tier15: [
 
     {
-        name:"SMG - Banshee ARP",
+        name:"SMG",
         image:"images/BansheeARP.jpeg",
         stats:"Damage:70 | Accuracy:75 | Range:60"
     },
 
     {
-        name:"SMG Mk II - 4 Inch ARP (FRT)",
+        name:"SMG Mk II",
         image:"images/4InchARP.jpeg",
         stats:"Damage:75 | Accuracy:80 | Range:65"
     },
 
     {
-        name:"Machine Pistol - Tec 9",
+        name:"Machine Pistol",
         image:"images/Tec9.jpeg",
         stats:"Damage:65 | Accuracy:70 | Range:50"
     },
 
     {
-        name:"AP Pistol - G47 Switch",
+        name:"AP Pistol",
         image:"images/G47Switch.jpeg",
         stats:"Damage:80 | Accuracy:85 | Range:60"
     },
 
     {
-        name:"Pistol .50 - FN 57",
+        name:"Pistol .50",
         image:"images/FN57.jpeg",
         stats:"Damage:85 | Accuracy:80 | Range:70"
     },
@@ -165,19 +165,19 @@ tier15: [
     },
 
     {
-        name:"WM 29 Pistol - Glock 30",
+        name:"WM 29 Pistol",
         image:"images/Glock30.jpeg",
         stats:"Damage:65 | Accuracy:75 | Range:55"
     },
 
     {
-        name:"Compact Rifle - Micro Draco",
+        name:"Compact Rifle",
         image:"images/MicroDraco.jpeg",
         stats:"Damage:85 | Accuracy:65 | Range:60"
     },
 
     {
-        name:"Heavy Rifle - Honey Badger",
+        name:"Heavy Rifle",
         image:"images/HoneyBadger.jpeg",
         stats:"Damage:90 | Accuracy:85 | Range:75"
     }
@@ -195,13 +195,13 @@ tier15: [
 tier2: [
 
     {
-        name:"Carbine Rifle - 300 Blackout",
+        name:"Carbine Rifle",
         image:"images/300Blackout.jpeg",
         stats:"Damage:90 | Accuracy:85 | Range:85"
     },
 
     {
-        name:"Carbine Rifle Mk II - Micro ARP",
+        name:"Carbine Rifle Mk II",
         image:"images/MicroARP.jpeg",
         stats:"Damage:85 | Accuracy:80 | Range:70"
     },
@@ -213,25 +213,25 @@ tier2: [
     },
 
     {
-        name:"AP Pistol - G47 Switch",
+        name:"AP Pistol",
         image:"images/G47Switch.jpeg",
         stats:"Damage:80 | Accuracy:85 | Range:60"
     },
 
     {
-        name:"Micro SMG - Kriss Vector",
+        name:"Micro SMG",
         image:"images/KrissVector.jpeg",
         stats:"Damage:85 | Accuracy:90 | Range:65"
     },
 
     {
-        name:"Tactical SMG - Mac 10",
+        name:"Tactical SMG",
         image:"images/Mac10.jpeg",
         stats:"Damage:75 | Accuracy:70 | Range:55"
     },
 
     {
-        name:"Combat PDW - DDM4",
+        name:"Combat PDW",
         image:"images/DDM4.jpeg",
         stats:"Damage:90 | Accuracy:85 | Range:80"
     }
@@ -305,7 +305,7 @@ function showTier(tier){
 
 
         item.innerHTML =
-        "🔫 " + weapon.name;
+         weapon.name;
 
 
         weaponList.appendChild(item);
