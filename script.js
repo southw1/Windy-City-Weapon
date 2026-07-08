@@ -497,7 +497,7 @@ function randomizeWeapon(){
 
 /* LOAD DEFAULT */
 
-showTier("tier0");
-showTier("tier1");
-showTier("tier1.5");
-showTier("tier2");
+showTier("tier 0");
+showTier("tier 1");
+showTier("tier 1.5");
+showTier("tier 2");
