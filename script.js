@@ -1,184 +1,183 @@
 /* =====================================
    WINDY CITY WEAPONS
-   CLEAN SCRIPT
-   PART 1 - WEAPON DATABASE
+   GTA ONLY WEAPON DATABASE
+   PART 1/3
 ===================================== */
 
 
 const weapons = {
 
 
-    // =========================
-    // Tier 0
-    // =========================
+/* =========================
+   Tier 0
+========================= */
 
-    tier 0: [
+tier 0:[
 
-        {
-            name: "Pistol",
-            image: "images/Beretta.jpeg",
-            stats: "Damage: 45 | Accuracy: 70 | Range: 45"
-        },
+    {
+        name:"Pistol",
+        image:"images/pistol.jpeg",
+        stats:"Damage:45 | Accuracy:70 | Range:45"
+    },
 
-        {
-            name: "Pistol Mk II",
-            image: "images/Glock45.jpeg",
-            stats: "Damage: 50 | Accuracy: 85 | Range: 50"
-        },
+    {
+        name:"Pistol Mk II",
+        image:"images/pistol_mk2.jpeg",
+        stats:"Damage:50 | Accuracy:80 | Range:50"
+    },
 
-        {
-            name: "Combat Pistol",
-            image: "images/G19x.jpeg",
-            stats: "Damage: 55 | Accuracy: 85 | Range: 55"
-        },
+    {
+        name:"Combat Pistol",
+        image:"images/combat_pistol.jpeg",
+        stats:"Damage:55 | Accuracy:85 | Range:55"
+    },
 
-        {
-            name: "SNS Pistol",
-            image: "images/WalterP90.jpeg",
-            stats: "Damage: 60 | Accuracy: 75 | Range: 55"
-        },
+    {
+        name:"SNS Pistol",
+        image:"images/sns_pistol.jpeg",
+        stats:"Damage:45 | Accuracy:70 | Range:40"
+    },
 
-        {
-            name: "SNS Pistol Mk II",
-            image: "images/Hellcat.jpeg",
-            stats: "Damage: 52 | Accuracy: 82 | Range: 50"
-        },
+    {
+        name:"SNS Pistol Mk II",
+        image:"images/sns_pistol_mk2.jpeg",
+        stats:"Damage:55 | Accuracy:75 | Range:45"
+    },
 
-        {
-            name: "Heavy Pistol",
-            image: "images/FN.jpeg",
-            stats: "Damage: 70 | Accuracy: 70 | Range: 65"
-        },
+    {
+        name:"Heavy Pistol",
+        image:"images/gta_heavy_pistol.jpeg",
+        stats:"Damage:70 | Accuracy:70 | Range:60"
+    },
 
-        {
-            name: "Vintage Pistol",
-            image: "images/Glock41.jpeg",
-            stats: "Damage: 60 | Accuracy: 80 | Range: 55"
-        },
+    {
+        name:"Vintage Pistol",
+        image:"images/gta_vintage_pistol.jpeg",
+        stats:"Damage:60 | Accuracy:75 | Range:55"
+    },
 
-        {
-            name: "Ceramic Pistol",
-            image: "images/SigP230.jpeg",
-            stats: "Damage: 50 | Accuracy: 75 | Range: 45"
-        }
+    {
+        name:"Ceramic Pistol",
+        image:"images/gta_ceramic_pistol.jpeg",
+        stats:"Damage:50 | Accuracy:70 | Range:45"
+    }
 
-    ],
-
-
+],
 
 
-    // =========================
-    // Tier 1
-    // =========================
 
-    tier 1: [
 
-        {
-            name: "Pistol",
-            image: "images/Beretta.jpeg",
-            stats: "Damage: 45 | Accuracy: 70 | Range: 45"
-        },
+/* =========================
+   Tier 1
+========================= */
 
-        {
-            name: "Pistol Mk II",
-            image: "images/Glock45.jpeg",
-            stats: "Damage: 50 | Accuracy: 85 | Range: 50"
-        },
+tier 1:[
 
-        {
-            name: "Combat Pistol",
-            image: "images/G19x.jpeg",
-            stats: "Damage: 55 | Accuracy: 85 | Range: 55"
-        },
+    {
+        name:"Pistol",
+        image:"images/gta_pistol.jpeg",
+        stats:"Damage:45 | Accuracy:70 | Range:45"
+    },
 
-        {
-            name: "SNS Pistol",
-            image: "images/WalterP90.jpeg",
-            stats: "Damage: 60 | Accuracy: 75 | Range: 55"
-        },
+    {
+        name:"Pistol Mk II",
+        image:"images/gta_pistol_mk2.jpeg",
+        stats:"Damage:50 | Accuracy:80 | Range:50"
+    },
 
-        {
-            name: "SNS Pistol Mk II",
-            image: "images/Hellcat.jpeg",
-            stats: "Damage: 52 | Accuracy: 82 | Range: 50"
-        },
+    {
+        name:"Combat Pistol",
+        image:"images/gta_combat_pistol.jpeg",
+        stats:"Damage:55 | Accuracy:85 | Range:55"
+    },
 
-        {
-            name: "Heavy Pistol",
-            image: "images/FN.jpeg",
-            stats: "Damage: 70 | Accuracy: 70 | Range: 65"
-        },
+    {
+        name:"SNS Pistol",
+        image:"images/gta_sns_pistol.jpeg",
+        stats:"Damage:45 | Accuracy:70 | Range:40"
+    },
 
-        {
-            name: "Vintage Pistol",
-            image: "images/Glock41.jpeg",
-            stats: "Damage: 60 | Accuracy: 80 | Range: 55"
-        },
+    {
+        name:"SNS Pistol Mk II",
+        image:"images/gta_sns_pistol_mk2.jpeg",
+        stats:"Damage:55 | Accuracy:75 | Range:45"
+    },
 
-        {
-            name: "Ceramic Pistol",
-            image: "images/SigP230.jpeg",
-            stats: "Damage: 50 | Accuracy: 75 | Range: 45"
-        }
+    {
+        name:"Heavy Pistol",
+        image:"images/gta_heavy_pistol.jpeg",
+        stats:"Damage:70 | Accuracy:70 | Range:60"
+    },
 
-    ],/* =========================
+    {
+        name:"Vintage Pistol",
+        image:"images/gta_vintage_pistol.jpeg",
+        stats:"Damage:60 | Accuracy:75 | Range:55"
+    },
+
+    {
+        name:"Ceramic Pistol",
+        image:"imagesgta_/ceramic_pistol.jpeg",
+        stats:"Damage:50 | Accuracy:70 | Range:45"
+    }
+
+],/* =========================
    Tier 1.5
 ========================= */
 
-
-tier 1.5: [
+tier 1.5:[
 
     {
         name:"SMG",
-        image:"images/BansheeARP.jpeg",
+        image:"images/gta_smg.jpeg",
         stats:"Damage:70 | Accuracy:75 | Range:60"
     },
 
     {
         name:"SMG Mk II",
-        image:"images/4InchARP.jpeg",
+        image:"images/gta_smg_mk2.jpeg",
         stats:"Damage:75 | Accuracy:80 | Range:65"
     },
 
     {
         name:"Machine Pistol",
-        image:"images/Tec9.jpeg",
+        image:"images/gta_machine_pistol.jpeg",
         stats:"Damage:65 | Accuracy:70 | Range:50"
     },
 
     {
         name:"AP Pistol",
-        image:"images/G47Switch.jpeg",
+        image:"images/gta_ap_pistol.jpeg",
         stats:"Damage:80 | Accuracy:85 | Range:60"
     },
 
     {
         name:"Pistol .50",
-        image:"images/FN57.jpeg",
+        image:"images/gta_pistol50.jpeg",
         stats:"Damage:85 | Accuracy:80 | Range:70"
     },
 
     {
-        name:"Heavy Pistol - FN",
-        image:"images/FN.jpeg",
-        stats:"Damage:70 | Accuracy:70 | Range:65"
+        name:"Heavy Pistol",
+        image:"images/gta_heavy_pistol.jpeg",
+        stats:"Damage:70 | Accuracy:70 | Range:60"
     },
 
     {
         name:"WM 29 Pistol",
-        image:"images/Glock30.jpeg",
-        stats:"Damage:65 | Accuracy:75 | Range:55"
+        image:"images/gta_wm29.jpeg",
+        stats:"Damage:75 | Accuracy:80 | Range:65"
     },
 
     {
         name:"Compact Rifle",
-        image:"images/MicroDraco.jpeg",
-        stats:"Damage:85 | Accuracy:65 | Range:60"
+        image:"images/gta_compact_rifle.jpeg",
+        stats:"Damage:85 | Accuracy:70 | Range:65"
     },
 
     {
         name:"Heavy Rifle",
-        image:"images/HoneyBadger.jpeg",
+        image:"images/gta_heavy_rifle.jpeg",
         stats:"Damage:90 | Accuracy:85 | Range:75"
     }
 
@@ -191,49 +190,48 @@ tier 1.5: [
    Tier 2
 ========================= */
 
-
-tier 2: [
+tier 2:[
 
     {
         name:"Carbine Rifle",
-        image:"images/300Blackout.jpeg",
+        image:"images/gta_carbine_rifle.jpeg",
         stats:"Damage:90 | Accuracy:85 | Range:85"
     },
 
     {
         name:"Carbine Rifle Mk II",
-        image:"images/MicroARP.jpeg",
-        stats:"Damage:85 | Accuracy:80 | Range:70"
+        image:"images/gta_carbine_rifle_mk2.jpeg",
+        stats:"Damage:95 | Accuracy:90 | Range:90"
     },
 
     {
-        name:"Compact Rifle - Black Draco",
-        image:"images/BlackDraco.jpeg",
-        stats:"Damage:90 | Accuracy:70 | Range:65"
+        name:"Compact Rifle",
+        image:"images/gta_compact_rifle.jpeg",
+        stats:"Damage:85 | Accuracy:70 | Range:65"
     },
 
     {
         name:"AP Pistol",
-        image:"images/G47Switch.jpeg",
+        image:"images/gta_ap_pistol.jpeg",
         stats:"Damage:80 | Accuracy:85 | Range:60"
     },
 
     {
         name:"Micro SMG",
-        image:"images/KrissVector.jpeg",
-        stats:"Damage:85 | Accuracy:90 | Range:65"
+        image:"images/gta_micro_smg.jpeg",
+        stats:"Damage:75 | Accuracy:80 | Range:50"
     },
 
     {
         name:"Tactical SMG",
-        image:"images/Mac10.jpeg",
-        stats:"Damage:75 | Accuracy:70 | Range:55"
+        image:"images/gta_tactical_smg.jpeg",
+        stats:"Damage:80 | Accuracy:75 | Range:55"
     },
 
     {
         name:"Combat PDW",
-        image:"images/DDM4.jpeg",
-        stats:"Damage:90 | Accuracy:85 | Range:80"
+        image:"images/gta_combat_pdw.jpeg",
+        stats:"Damage:85 | Accuracy:85 | Range:70"
     }
 
 ]
@@ -241,19 +239,21 @@ tier 2: [
 
 };/* =====================================
    WINDY CITY WEAPONS
-   PART 3 - FUNCTIONS & SPINNER
+   PART 3/3
+   SPINNER SYSTEM
 ===================================== */
 
 
-/* CURRENT SETTINGS */
+/* CURRENT TIER */
 
-let currentTier = "tier1";
+let currentTier = "tier0";
 
 let currentWeaponPool = weapons[currentTier];
 
 
 
-/* SPIN AMOUNT */
+
+/* HOW MANY WEAPONS SHOW DURING SPIN */
 
 const spinLimits = {
 
@@ -270,8 +270,9 @@ const spinLimits = {
 
 
 
+
 /* =========================
-   LOAD TIER
+   SHOW TIER WEAPONS
 ========================= */
 
 function showTier(tier){
@@ -284,11 +285,11 @@ function showTier(tier){
 
 
 
-    const weaponList =
+    let weaponList =
     document.getElementById("weaponList");
 
 
-    const currentPool =
+    let currentPool =
     document.getElementById("currentPool");
 
 
@@ -297,21 +298,22 @@ function showTier(tier){
 
 
 
-    currentWeaponPool.forEach((weapon)=>{
+    currentWeaponPool.forEach(function(weapon){
 
 
-        let item =
+        let li =
         document.createElement("li");
 
 
-        item.innerHTML =
-         weapon.name;
+        li.innerHTML =
+        "🔫 " + weapon.name;
 
 
-        weaponList.appendChild(item);
+        weaponList.appendChild(li);
 
 
     });
+
 
 
 
@@ -320,13 +322,13 @@ function showTier(tier){
         <h3>${tier.toUpperCase()}</h3>
 
         <p>
-        Weapons Available:
+        Total Weapons:
         ${currentWeaponPool.length}
         </p>
 
         <p>
         Spin Pool:
-        ${spinLimits[tier]} Weapons
+        ${spinLimits[tier]} weapons
         </p>
 
     `;
@@ -339,18 +341,15 @@ function showTier(tier){
 
 
 
-/* =========================
-   SPIN BUTTON
-========================= */
 
+/* =========================
+   SPIN WEAPON
+========================= */
 
 function randomizeWeapon(){
 
 
-
     if(currentWeaponPool.length === 0){
-
-        alert("No weapons in this tier");
 
         return;
 
@@ -361,40 +360,53 @@ function randomizeWeapon(){
     let spinPool = [];
 
     let available =
+
     [...currentWeaponPool];
 
 
 
     let amount =
+
     spinLimits[currentTier];
 
 
 
 
-    // Automatically choose weapons
+
+    // PICK RANDOM WEAPONS
 
     for(let i = 0; i < amount; i++){
 
 
-        let random = Math.floor(
+        let randomIndex =
 
-            Math.random()
+        Math.floor(
 
-            *
+        Math.random()
 
-            available.length
+        *
+
+        available.length
 
         );
+
 
 
         spinPool.push(
 
-            available[random]
+        available[randomIndex]
 
         );
 
 
-        available.splice(random,1);
+
+        available.splice(
+
+        randomIndex,
+
+        1
+
+        );
 
 
     }
@@ -402,6 +414,8 @@ function randomizeWeapon(){
 
 
 
+
+    // FINAL WINNER
 
     let winner =
 
@@ -423,28 +437,35 @@ function randomizeWeapon(){
 
 
 
-    let weaponName =
-    document.getElementById("weaponName");
 
 
     let weaponImage =
+
     document.getElementById("weaponImage");
 
 
+    let weaponName =
+
+    document.getElementById("weaponName");
+
+
     let weaponStats =
+
     document.getElementById("weaponStats");
 
 
 
 
 
-    let count = 0;
+    let spinCount = 0;
 
 
-    let animation = setInterval(()=>{
+
+    let spinner = setInterval(function(){
 
 
-        let fakeWeapon =
+
+        let randomWeapon =
 
         currentWeaponPool[
 
@@ -462,43 +483,55 @@ function randomizeWeapon(){
 
 
 
-        weaponName.innerHTML =
-        fakeWeapon.name;
-
-
-
         weaponImage.src =
-        fakeWeapon.image;
+
+        randomWeapon.image;
+
+
+
+        weaponName.innerHTML =
+
+        randomWeapon.name;
 
 
 
         weaponStats.innerHTML =
-        "Rolling...";
+
+        "Spinning...";
 
 
 
-        count++;
+
+
+        spinCount++;
 
 
 
-        if(count >= 20){
 
 
-            clearInterval(animation);
+        if(spinCount >= 25){
 
 
 
-            weaponName.innerHTML =
-            winner.name;
+            clearInterval(spinner);
+
 
 
 
             weaponImage.src =
+
             winner.image;
 
 
 
+            weaponName.innerHTML =
+
+            winner.name;
+
+
+
             weaponStats.innerHTML =
+
             winner.stats;
 
 
@@ -518,10 +551,10 @@ function randomizeWeapon(){
 
 
 
-/* =========================
-   DEFAULT LOAD
-========================= */
 
+/* =========================
+   LOAD DEFAULT TIER
+========================= */
 
 window.onload = function(){
 
@@ -530,7 +563,6 @@ window.onload = function(){
     showTier("tier 1");
     showTier("tier 1.5");
     showTier("tier 2");
-
 
 
 
