@@ -1,25 +1,33 @@
 ```css
-/* ================================
+/* =================================
    WINDY CITY WEAPONS
-   Main Style Sheet
-================================ */
+   BLUE NEON STYLE
+================================= */
 
 
-/* GLOBAL SETTINGS */
+/* GLOBAL */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 
 body {
+
     background:
-        radial-gradient(circle at top, #2b0057, #08000f 60%);
-    color: white;
-    min-height: 100vh;
+    radial-gradient(
+        circle at top,
+        #003366,
+        #05000f 65%
+    );
+
+    color:white;
+
+    min-height:100vh;
+
 }
 
 
@@ -27,25 +35,39 @@ body {
 /* HEADER */
 
 header {
-    text-align: center;
-    padding: 30px;
+
+    text-align:center;
+
+    padding:30px;
+
 }
+
 
 
 header h1 {
-    font-size: 48px;
-    letter-spacing: 5px;
-    color: #c44dff;
+
+    font-size:48px;
+
+    letter-spacing:5px;
+
+    color:#00bfff;
+
     text-shadow:
-        0 0 10px #c44dff,
-        0 0 25px #8a00ff;
+    0 0 10px #00bfff,
+    0 0 25px #0066ff;
+
 }
 
 
+
 header p {
-    color: #aaa;
-    margin-top: 10px;
-    font-size: 18px;
+
+    color:#b8dfff;
+
+    margin-top:10px;
+
+    font-size:18px;
+
 }
 
 
@@ -54,19 +76,26 @@ header p {
 
 .container {
 
-    display: grid;
+    display:grid;
 
     grid-template-columns:
-        280px
-        1fr
-        280px;
 
-    gap: 25px;
+    280px
+    1fr
+    280px;
 
-    width: 95%;
-    margin: auto;
 
-    padding-bottom: 40px;
+    gap:25px;
+
+
+    width:95%;
+
+
+    margin:auto;
+
+
+    padding-bottom:40px;
+
 }
 
 
@@ -77,62 +106,77 @@ header p {
 .spinner-panel,
 .info-panel {
 
+
     background:
-        linear-gradient(
-            145deg,
-            rgba(40,0,80,0.9),
-            rgba(10,0,20,0.95)
-        );
 
-    border: 2px solid #8a00ff;
+    linear-gradient(
+        145deg,
+        rgba(0,40,90,.9),
+        rgba(0,5,20,.95)
+    );
 
-    border-radius: 15px;
 
-    padding: 25px;
+    border:2px solid #0066ff;
+
+
+    border-radius:15px;
+
+
+    padding:25px;
+
 
     box-shadow:
-        0 0 15px #8a00ff,
-        inset 0 0 20px rgba(138,0,255,.3);
+
+    0 0 20px #0066ff,
+    inset 0 0 20px rgba(0,150,255,.25);
 
 }
 
 
 
-/* PANEL TITLES */
+/* TITLES */
 
 h2 {
 
     text-align:center;
 
-    color:#d580ff;
+    color:#66d9ff;
 
     margin-bottom:20px;
 
+
     text-shadow:
-        0 0 10px #8a00ff;
+
+    0 0 10px #00bfff;
 
 }
 
 
 
-/* LEFT TIER BUTTONS */
-
+/* TIER BUTTONS */
 
 .tier-panel button {
 
 
     width:100%;
 
+
     margin-bottom:15px;
+
 
     padding:15px;
 
 
-    background:#160025;
+    background:#001a33;
+
 
     color:white;
 
-    border:2px solid #9b00ff;
+
+    border:
+
+    2px solid #008cff;
+
 
     border-radius:10px;
 
@@ -145,6 +189,7 @@ h2 {
 
     transition:.3s;
 
+
 }
 
 
@@ -152,35 +197,34 @@ h2 {
 .tier-panel button:hover {
 
 
-    background:#8a00ff;
+    background:#0066ff;
+
 
     box-shadow:
-        0 0 20px #c44dff;
+
+    0 0 25px #00bfff;
+
 
     transform:scale(1.05);
 
-}
-
-
-
-/* WEAPON POOL LIST */
-
-
-.weapon-pool {
-
-    margin-top:30px;
 
 }
 
 
+
+/* WEAPON LIST */
 
 .weapon-pool ul {
 
+
     list-style:none;
+
 
     max-height:450px;
 
+
     overflow-y:auto;
+
 
 }
 
@@ -189,30 +233,36 @@ h2 {
 .weapon-pool li {
 
 
-    background:#100018;
+    background:#000d1a;
 
-    border:1px solid #6f00cc;
+
+    border:1px solid #008cff;
+
 
     padding:10px;
 
+
     margin-bottom:8px;
 
+
     border-radius:8px;
+
 
 }
 
 
 
-/* CENTER SPINNER */
-
+/* SPINNER */
 
 .spinner-panel {
+
 
     display:flex;
 
     flex-direction:column;
 
     align-items:center;
+
 
 }
 
@@ -230,12 +280,12 @@ h2 {
 
     linear-gradient(
         135deg,
-        #150020,
-        #050009
+        #001933,
+        #000814
     );
 
 
-    border:3px solid #c44dff;
+    border:3px solid #00bfff;
 
 
     border-radius:20px;
@@ -252,7 +302,7 @@ h2 {
 
     box-shadow:
 
-        0 0 25px #c44dff;
+    0 0 30px #0066ff;
 
 
     margin-bottom:30px;
@@ -269,13 +319,14 @@ h2 {
 
     height:160px;
 
+
     object-fit:contain;
 
 
     filter:
 
     drop-shadow(
-        0 0 15px #9b00ff
+        0 0 15px #00bfff
     );
 
 
@@ -292,12 +343,12 @@ h2 {
     font-size:32px;
 
 
-    color:white;
+    color:#ffffff;
 
 
     text-shadow:
 
-    0 0 10px #c44dff;
+    0 0 15px #00bfff;
 
 
 }
@@ -306,21 +357,22 @@ h2 {
 
 /* SPIN BUTTON */
 
-
 .spin-button {
 
 
     width:250px;
+
 
     padding:18px;
 
 
     background:
 
+
     linear-gradient(
         90deg,
-        #7000ff,
-        #c44dff
+        #0066ff,
+        #00bfff
     );
 
 
@@ -335,6 +387,7 @@ h2 {
 
     font-size:22px;
 
+
     font-weight:bold;
 
 
@@ -343,7 +396,7 @@ h2 {
 
     box-shadow:
 
-    0 0 20px #9b00ff;
+    0 0 25px #008cff;
 
 
     transition:.3s;
@@ -361,15 +414,14 @@ h2 {
 
     box-shadow:
 
-    0 0 35px #c44dff;
+    0 0 40px #00bfff;
 
 
 }
 
 
 
-/* WEAPON STATS */
-
+/* STATS */
 
 .weapon-info {
 
@@ -380,7 +432,7 @@ h2 {
     width:100%;
 
 
-    background:#09000f;
+    background:#000814;
 
 
     padding:20px;
@@ -389,7 +441,7 @@ h2 {
     border-radius:12px;
 
 
-    border:1px solid #8a00ff;
+    border:1px solid #0066ff;
 
 
 }
@@ -401,7 +453,7 @@ h2 {
 
     text-align:center;
 
-    color:#ccc;
+    color:#b8dfff;
 
 }
 
@@ -409,20 +461,10 @@ h2 {
 
 /* RIGHT PANEL */
 
-
-.info-panel {
-
-
-    min-height:500px;
-
-}
-
-
-
 #currentPool {
 
 
-    background:#0b0015;
+    background:#000d1a;
 
 
     border-radius:10px;
@@ -431,7 +473,7 @@ h2 {
     padding:15px;
 
 
-    border:1px solid #7000ff;
+    border:1px solid #008cff;
 
 
 }
@@ -440,15 +482,13 @@ h2 {
 
 #currentPool p {
 
-
-    color:#bbb;
+    color:#b8dfff;
 
 }
 
 
 
 /* FOOTER */
-
 
 footer {
 
@@ -459,10 +499,10 @@ footer {
     padding:25px;
 
 
-    border-top:2px solid #8a00ff;
+    border-top:2px solid #0066ff;
 
 
-    background:#050008;
+    background:#000814;
 
 
 }
@@ -472,11 +512,12 @@ footer {
 footer h3 {
 
 
-    color:#c44dff;
+    color:#00bfff;
 
 
     text-shadow:
-        0 0 10px #8a00ff;
+
+    0 0 15px #0066ff;
 
 
 }
@@ -484,7 +525,6 @@ footer h3 {
 
 
 /* SCROLLBAR */
-
 
 ::-webkit-scrollbar {
 
@@ -495,14 +535,14 @@ footer h3 {
 
 ::-webkit-scrollbar-track {
 
-    background:#100018;
+    background:#00101f;
 
 }
 
 
 ::-webkit-scrollbar-thumb {
 
-    background:#8a00ff;
+    background:#008cff;
 
     border-radius:10px;
 
@@ -510,8 +550,7 @@ footer h3 {
 
 
 
-/* RESPONSIVE */
-
+/* MOBILE */
 
 @media(max-width:1000px){
 
